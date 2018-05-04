@@ -28,7 +28,7 @@ Simply add this script after your <link> (stylesheets) elements.
 
 ### Media Queries
 
-So what now, you need @media (media queries) support but `respond.js` does not support REM units. No problem, simply add the modified `respond.js` script in this repository. Make sure to add this after the `remPolyfill.js` since it depends on this script to be loaded first. `remPolyfill.js` must also be loaded synchronously to make sure it will be ready to use.
+So what now, you need @media (media queries) support but `respond.js` does not support REM units. No problem, simply add the modified `respond.js` script in this repository.
 
 ```html
 <script src="respond.js"></script>
